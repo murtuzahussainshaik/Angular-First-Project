@@ -1,0 +1,63 @@
+.container {
+  text-align: center;
+  margin-top: 10%;
+  background-color: goldenrod;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: sans-serif;
+  border: 4px solid goldenrod;
+  border-radius: 10px;
+  color: white;
+}
+
+h2 {
+  font-family: sans-serif;
+  margin-top: 50px;
+  text-decoration: underline;
+  font-size: 35px;
+}
+/* 
+button {
+  padding: 5px 20px;
+  width: 200px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  background-color: green;
+  font-weight: bold;
+  font-size: 16px;
+  width: 300px;
+} */
+
+.clearStorage {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 2px solid aqua;
+  margin-bottom: 30px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.tableContainer {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: bold;
+}
+
+.tableHeadings {
+  color: black;
+  font-size: 18px;
+}
+
+th {
+  padding: 4px 8px;
+}
+td {
+  padding: 4px 8px;
+}
+
+.acceptance {
+  font-weight: bold;
+  border-radius: 4px;
+}
