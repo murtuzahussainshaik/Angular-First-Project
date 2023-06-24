@@ -1,0 +1,26 @@
+<div class="container">
+  <h2>Admin Dashboard</h2>
+  <button class="clearStorage" (click)="clearLocalStorage()">
+    Clear LocalStorage
+  </button>
+  <div class="tableContainer">
+    <table>
+      <tr class="tableHeadings">
+        <th>Name</th>
+        <th>Reason</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+      <tr *ngFor="let request of outpassRequests">
+        <td>{{ request.name }}</td>
+        <td>{{ request.reason }}</td>
+        <td>{{ request.status }}</td>
+        <td>
+          <button class="acceptance" (click)="acceptOutpass(request)">
+            Accept
+          </button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
